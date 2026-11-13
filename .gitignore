@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Data penelitian siswa: JANGAN di-commit (privasi)
+data/
+hasil-analisis/
+
+# Tangkapan layar uji E2E
+tests/e2e/tangkapan/
+
+.env
+.env.*
+!.env.example
